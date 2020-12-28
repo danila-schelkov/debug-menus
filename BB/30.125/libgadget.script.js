@@ -28,7 +28,7 @@ function createString(message) {
 
 function Hook(parameters, base) {
     this.base = base;
-    this.host = '18.191.240.99'; // parameters.redirectHost;
+    this.host = 'YOUR HOST\'S IP';
 }
 
 Hook.prototype.redirect = function () {
